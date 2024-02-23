@@ -56,6 +56,11 @@ p{
 
 
 @media screen and (orientation:portrait) {
+
+    html, body{
+        height: 100%;
+    }
+    
     #instructions p{
         font-size: 8vw;
     }
