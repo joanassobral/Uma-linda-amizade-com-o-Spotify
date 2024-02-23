@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oi</title>
+
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="instructions"> <p>?</p> <p id="pt">PT</p> <p id="es">ES</p> <p id="eng">ENG</p></div>
+    
+</body>
+<script>
+
+    let pt_btn = document.getElementById("pt")
+        pt_btn.addEventListener("click",()=>{
+            document.location.replace("textpt.html");
+        })
+
+    let es_btn = document.getElementById("es")
+        es_btn.addEventListener("click",()=>{
+            document.location.replace("textes.html");
+        })
+
+    let eng_btn = document.getElementById("eng")
+        eng_btn.addEventListener("click",()=>{
+            document.location.replace("texteng.html");
+        })
+</script>
+</html>

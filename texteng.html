@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="arrow_box"> <p id="back_arrow">←</p> <p id="counter">1/5</p> <p id="forward_arrow">→</p> </div>
+    <div id="text_box"> <p id="text_p"></p> </div>
+    <div id="canvas"></div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js" integrity="sha512-n8IpKWzDnBOcBhRlHirMZOUvEq2bLRMuJGjuVqbzUJwtTsgwOgK5aS0c1JA647XWYfqvXve8k3PtZdzpipFjgg==" crossorigin="anonymous"></script>
+<script src=https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/controls/OrbitControls.js></script>
+<script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
+
+<script>
+    let text0 = "The first thing I do each day, not when I wake up but when I leave my house, is to feel a wave of panic as I dive into the options my dear Spotify decided to present me with that day. Spotify and I don’t really get along. It knows it’s through music that I decide what my personality will be for the next three hours, but instead of helping me choose, it simply suggests again and again the last few playlists I last heard, as if that had anything to do with how I feel in the moment. From a limited amount of data, it puts together a list of the boxes I can try to make myself fit into, a list that feels particularly asphyxiating in the mornings when I take longer to identify what kind of identity I feel like having that day.";
+    let text1 = "The way we think about identities seems to me as if we were trying to answer the question of who we are. But the issue is that when we ask questions, we tend to prefer answers that are simple, definitive, and that confirm ideas we already had. That’s why when we think of someone’s identity, we tend to think of facts and to imagine something fixed and tactile. We think of where we were born, things we’ve accomplished, things we like, and we start to form a neat image fit for a picture frame. But then, just like Spotify, we’d be analyzing ourselves through data, without consideration for the fluidity and the mystery of human nature.";
+    let text2 = "Each one of us is an eternally mysterious being, no matter what we do. Surprises, disappointments, time, and changes. What someone is isn’t something you can map out, it’s as if we were drifting through the world with limited control over our paths. Therefore, it’s impossible for someone to completely know themselves or another, independently of how that relationship may be. The understanding we have of others and of ourselves is a simple and incompletable perception.";
+    let text3 = "That’s why we have boxes. If we didn’t use them, navigating through the world would be extremely complicated. Making assumptions and placing people in boxes according to our expectations allows us to make quicker decisions to carry on with our lives, as well as to protect us. It’s also not like the ideas we form of others are always completely wrong. After all, those images were formed by something.";
+    let text4 = "Although it’s impossible to understand it completely, what we are continues to have a perceptible presence in the world, and that presence can be documented with data. The problem comes when we forget what the numbers can’t show or predict. But in the mean time, this abstract idea of what we are will continue to exist and to express itself, producing data used by algorithms used by Spotify and countless other platforms.";
+    let endPageFile = "endeng.html";
+</script>
+<script type="module" src="3D.js"></script>
+
+</html>
